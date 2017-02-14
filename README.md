@@ -14,10 +14,10 @@ If known, the user can directly specify the IP address of the device, e.g.:
 
     $ python rcdat.py 192.168.1.2
 
-If no argument is provided, the application will attempt to discover the
+If no argument is provided, the application will first attempt to discover the
 device's address using a UDP broadcast message on port 4950:
 
-    # python rcdat.py
+    $ python rcdat.py
 
 The end user should change the `DISCOVERY_IP` variable to reflect her local
 network broadcast address. Depending on the user's system, it may be necessary
