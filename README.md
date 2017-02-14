@@ -5,7 +5,7 @@ This interactive terminal application is written in Python. It can be used to
 control certain Mini-Circuits programmable attenuators over HTTP. It has only
 been tested with the following model numbers:
 
-RCDAT-4000-120
+* RCDAT-4000-120
 
 Instructions
 --------
